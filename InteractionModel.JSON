@@ -1,0 +1,54 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "etsy shop",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetListingIntent",
+                    "slots": [
+                        {
+                            "name": "Products",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "for listings for {Products}",
+                        "for top listings for {Products}",
+                        "to tell me listings for {Products}",
+                        "to tell me top listings for {Products}",
+                        "tell me top listing for {Products}",
+                        "give me listings for {Products}",
+                        " give me top listings for {Products}",
+                        "to give me listings for {Products}",
+                        " show me {Products}",
+                        "for {Products}",
+                        "to show me {Products} ",
+                        "for today's listings for {Products}",
+                        "for today's top listings {Products}",
+                        "to give me today's listings for {Products}",
+                        "to show me today's listings for {Products}",
+                        "for today's top listings for {Products}",
+                        "to give me top listings for {Products}",
+                        "to show me today's top listings for {Products}",
+                        "to give me today's top listings for {Products}",
+                        "please search for {Products}",
+                        "search for {Products}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
